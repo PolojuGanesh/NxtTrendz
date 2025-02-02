@@ -58,14 +58,91 @@
   cursor: pointer;
 }
 
+.popup-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 16px 0px gray;
+  width: 40%;
+}
+
 @media screen and (max-width: 767px) {
-  .d-sm-none {
-    display: none;
+  .popup-content {
+    width: 70%;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .d-lg-none {
-    display: none;
-  }
+.payment-option-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.payment-option {
+  margin-bottom: 2%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.radio-input {
+  height: 11px;
+  width: 11px;
+}
+
+.payment-radio-label {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #616e7c;
+  font-size: 15px;
+  margin-left: 1%;
+}
+
+.order-summary-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.total-items-in-cart-para {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #616e7c;
+  font-size: 13px;
+}
+
+.success-message {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: green;
+  font-size: 13px;
+  text-align: center;
+}
+
+.cancel-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.cancel-and-confirm-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

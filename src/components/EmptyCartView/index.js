@@ -9,7 +9,7 @@ const EmptyCartView = () => (
       className="cart-empty-img"
       alt="cart empty"
     />
-    <h1 className="cart-empty-heading">Your Cart is Empty</h1>
+    <h1 className="cart-empty-heading">Your Cart Is Empty</h1>
 
     <Link to="/products">
       <button type="button" className="shop-now-btn">
